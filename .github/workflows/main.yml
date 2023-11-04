@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # This is a basic workflow to help you get started with Actions
 
 name: Deploy Website
@@ -65,3 +66,6 @@ jobs:
       - name: Create CloudFront invalidation
 >>>>>>> bda5aeb2d00e5a76a392afe6851fda772840adca
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
+=======
+
+>>>>>>> 814cecf4484fab7b0a50d6eaa1d88bfe14d5b7ac
